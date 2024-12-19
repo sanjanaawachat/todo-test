@@ -3,9 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { TodoTestComponent } from './shared/components/todo-test/todo-test.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoTestComponent
   ],
   imports: [
     BrowserModule
